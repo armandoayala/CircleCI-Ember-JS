@@ -10,4 +10,4 @@ jobs:
       - run: touch version.txt
       - run: echo "node version test" > version.txt
       - store_artifacts:
-        path: version.txt
+         path: version.txt
